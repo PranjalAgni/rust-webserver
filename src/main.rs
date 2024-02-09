@@ -38,4 +38,5 @@ fn handle_connection(mut stream: TcpStream) {
 
     stream.write_all(response.as_bytes()).unwrap();
     println!("Done writing this okay");
+    println!("Have to write something in golang.....    ");
 }
